@@ -2,7 +2,7 @@
 <html lang="en">
     <head>        
         <!-- META SECTION -->
-        <title>Atlant - Responsive Bootstrap Admin Template</title>            
+        <title>Moster.top - 问题详情</title>            
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -26,11 +26,8 @@
         	height: 20px;
         	line-height: 20px;
         }
-        
-        .timeline-footer{
-        	border: 1px solid red;
-        	padding-left: 0px;
-        	padding-right: 0;
+        .comment-item{
+        	background-color="red";
         }
         </style>
         
@@ -240,7 +237,11 @@
                                                 <li><a href="#"><span class="fa fa-tag"></span> eros</a></li>
                                                 <li><a href="#"><span class="fa fa-tag"></span> suspendisse</a></li>
                                                 <li><a href="#"><span class="fa fa-tag"></span> dolor</a></li>
-                                            </ul>                                            
+	                                            <li class="pull-right">
+	                                            	<button class="btn btn-primary pull-right" type="button">修改</button>
+	                                            	<button class="btn btn-primary pull-right" type="button">分享</button>
+	                                            </li>
+                                            </ul>
                                         </div>
                                         <div class="timeline-body comments">
                                             <div class="comment-item">
@@ -365,7 +366,7 @@
                                             </div>
                                         </div>                                        
                                         <div class="timeline-footer">
-                                        	<a href="#" class="btn btn-default">展开更多选票</a>
+                                        	<a href="#" class="btn btn-default"><i class="fa fa-sort-down"></i>展开更多选票</a>
                                         </div>
                                     </div>
 									<!-- end -->
@@ -411,8 +412,6 @@
         <script type="text/javascript" src="../../js/plugins/bootstrap/bootstrap-select.js"></script>        
         <!-- END THIS PAGE PLUGINS-->        
         
-        <script type="text/javascript" src="../../js/settings.js"></script>
-
         <script type="text/javascript" src="../../js/plugins.js"></script>        
         <script type="text/javascript" src="../../js/actions.js"></script>
         <script type="text/javascript" src="../../js/demo_maps.js"></script>
