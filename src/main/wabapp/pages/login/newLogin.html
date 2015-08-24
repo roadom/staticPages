@@ -17,6 +17,18 @@
         <link rel="stylesheet/less" type="text/css" href="../../less/css/styles.less"/>
         <script type="text/javascript" src="../../js/plugins/lesscss/less.min.js"></script>
         
+        
+        <style>
+        .fa-thumbs-o-up{
+        	line-height:30px;
+        }
+        .fa-loading{
+        	background: transparent url(../../img/blueimp/loading.gif) no-repeat scroll center center content-box !important;
+        	height: 20px;
+        	line-height: 20px;
+        }
+        </style>
+        
     </head>
     <body>
         <!-- START PAGE CONTAINER -->
@@ -217,8 +229,8 @@
                             <div class="panel panel-default">
                                 <div class="panel-body">
                                     
-<!-- start -->
-<div class="timeline-item-content">
+									<!-- start -->
+									<div class="timeline-item-content">
                                         <div class="timeline-heading">
                                             <img src="../../assets/images/users/user2.jpg"> <a href="#">John Doe</a> added article <a href="#">Lorem ipsum dolor sit amet</a>
                                         </div>
@@ -236,21 +248,35 @@
                                         </div>
                                         <div class="timeline-body comments">
                                             <div class="comment-item">
-                                                <img src="../../assets/images/users/user4.jpg">
-                                                <p class="comment-head">
-                                                    <a href="#">Brad Pitt</a> <span class="text-muted">@bradpitt</span>
-                                                </p>
-                                                <p>Awesome, man, that is awesome...</p>
-                                                <small class="text-muted">10h ago</small>
-                                            </div>   
+                                            	<div class="row">
+                                            		<div class="col-sm-11">
+                                            			 <img src="../../assets/images/users/user4.jpg">
+		                                                <p class="comment-head">
+		                                                    <a href="#">Brad Pitt</a> <span class="text-muted">@bradpitt</span>
+		                                                </p>
+		                                                <p>Awesome, man, that is awesome...</p>
+		                                                <small class="text-muted">10h ago</small>
+                                            		</div>
+                                            		<div class="col-sm-1 ">
+                                            			<button class="btn btn-default" ><i class="fa fa-thumbs-o-up"></i>0</button>
+                                            		</div>
+                                            	</div>
+                                            </div>
                                             <div class="comment-item">
-                                                <img src="../../assets/images/users/user4.jpg">
-                                                <p class="comment-head">
-                                                    <a href="#">Brad Pitt</a> <span class="text-muted">@bradpitt</span>
-                                                </p>
-                                                <p>Awesome, man, that is awesome...</p>
-                                                <small class="text-muted">10h ago</small>
-                                            </div>                                         
+                                            	<div class="row">
+                                            		<div class="col-md-11" style="float:left">
+                                            			 <img src="../../assets/images/users/user4.jpg">
+		                                                <p class="comment-head">
+		                                                    <a href="#">Brad Pitt</a> <span class="text-muted">@bradpitt</span>
+		                                                </p>
+		                                                <p>Awesome, man, that is awesome...</p>
+		                                                <small class="text-muted">10h ago</small>
+                                            		</div>
+                                            		<div class="col-md-1">
+                                            			<button class="btn btn-default" ><i class="fa fa-thumbs-o-up"></i>0</button>
+                                            		</div>
+                                            	</div>
+                                            </div>
                                         </div>                                        
                                         <div class="timeline-footer">
                                             <a href="#">Read more</a>
@@ -260,11 +286,23 @@
                                             </div>
                                         </div>
                                     </div>
-
-<!-- end -->
+									<!-- end -->
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    
+                    
+                    <!-- 更多 -->
+                    <div class="row">
+                        <div class="col-md-2 col-md-offset-10 col-md-pull-5">
+							<div class="panel panel-default">
+                                <div class="panel-body text-center">
+                                	<em class="fa-loading"> </em>
+									显示更多...
+                                </div>
+                            </div>
+						</div>
                     </div>
                 </div>
                 <!-- PAGE CONTENT WRAPPER -->                
@@ -295,6 +333,8 @@
         <script type="text/javascript" src="../../js/plugins/bootstrap/bootstrap-datepicker.js"></script>
         <script type="text/javascript" src="../../js/plugins/bootstrap/bootstrap-select.js"></script>        
         <!-- END THIS PAGE PLUGINS-->        
+        
+        <script type="text/javascript" src="../../js/settings.js"></script>
 
         <script type="text/javascript" src="../../js/plugins.js"></script>        
         <script type="text/javascript" src="../../js/actions.js"></script>
