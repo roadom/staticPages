@@ -1582,6 +1582,28 @@ body{
                 }
             }
         }
+        /*roadom 直接使用该类*/
+        .timeline-item-content{float: left; background: #F5F5F5; width: 100%; 
+            &:before,&:after{left: 95%; top: 20px; content: " "; height: 0; width: 0; position: absolute; pointer-events: none;}
+            &:before{border-color: rgba(255, 255, 255, 0); border-left-color: #FFF; border-width: 3px; margin-top: -3px;}
+            &:after{border-color: rgba(255, 255, 255, 0); border-left-color: #FFF; border-width: 7px; margin-top: -7px;}
+            
+            .timeline-heading{width: 100%; float: left; padding: 10px 10px 5px; line-height: 30px;
+                img{width: 30px; height: 30px; margin-right: 5px; border: 2px solid #FFF; .border-radius(50%);}
+                a{color: @theme-color; font-weight: 600;}
+            }
+            .timeline-body{width: 100%; float: left; padding: 10px;
+                &.comments{padding: 0px; }
+            }
+            .timeline-footer{width: 100%; float: left; padding: 5px 10px; line-height: 20px; background: #FFF; border-top: 3px solid #FFF; box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.2); margin-top:5px;
+                a{color: @theme-color; font-size: 12px; margin-right: 10px; text-decoration: none;
+                    &:hover{color: darken(@theme-color,5%);}
+                }
+                .pull-right{
+                    > a:last-child{margin-right: 0px;}
+                }
+            }
+        }
         /* END TIMELINE */
         
         /* COMMENTS */

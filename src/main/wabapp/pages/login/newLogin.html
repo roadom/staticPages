@@ -13,6 +13,10 @@
         <!-- CSS INCLUDE -->        
         <link rel="stylesheet" type="text/css" id="theme" href="../../css/theme-default.css"/>
         <!-- EOF CSS INCLUDE -->                                      
+        
+        <link rel="stylesheet/less" type="text/css" href="../../less/css/styles.less"/>
+        <script type="text/javascript" src="../../js/plugins/lesscss/less.min.js"></script>
+        
     </head>
     <body>
         <!-- START PAGE CONTAINER -->
@@ -137,7 +141,7 @@
                     </li>
                     <!-- SIGN OUT -->
                     <li class="xn-icon-button pull-right">
-                        <a href="#" class="mb-control" data-box="#mb-signout"><span class="fa fa-sign-out"></span></a>                        
+                        <a href="#" class="mb-control" data-box="#mb-signout"><span class="fa fa-user"></span></a>                        
                     </li> 
                     <li class="xn-icon-button pull-right active">
                         <a href="#"><span class="fa fa-comments"></span></a>
@@ -152,25 +156,25 @@
                             <div style="height: 200px;" class="panel-body list-group list-group-contacts scroll mCustomScrollbar _mCS_2 mCS-autoHide"><div class="mCustomScrollBox mCS-light mCSB_vertical mCSB_inside" id="mCSB_2" tabindex="0"><div dir="ltr" style="position:relative; top:0; left:0;" class="mCSB_container" id="mCSB_2_container">
                                 <a class="list-group-item" href="#">
                                     <div class="list-group-status status-online"></div>
-                                    <img alt="John Doe" class="pull-left" src="assets/images/users/user2.jpg">
+                                    <img alt="John Doe" class="pull-left" src="../../assets/images/users/user2.jpg">
                                     <span class="contacts-title">John Doe</span>
                                     <p>Praesent placerat tellus id augue condimentum</p>
                                 </a>
                                 <a class="list-group-item" href="#">
                                     <div class="list-group-status status-away"></div>
-                                    <img alt="Dmitry Ivaniuk" class="pull-left" src="assets/images/users/user.jpg">
+                                    <img alt="Dmitry Ivaniuk" class="pull-left" src="../../assets/images/users/user.jpg">
                                     <span class="contacts-title">Dmitry Ivaniuk</span>
                                     <p>Donec risus sapien, sagittis et magna quis</p>
                                 </a>
                                 <a class="list-group-item" href="#">
                                     <div class="list-group-status status-away"></div>
-                                    <img alt="Nadia Ali" class="pull-left" src="assets/images/users/user3.jpg">
+                                    <img alt="Nadia Ali" class="pull-left" src="../../assets/images/users/user3.jpg">
                                     <span class="contacts-title">Nadia Ali</span>
                                     <p>Mauris vel eros ut nunc rhoncus cursus sed</p>
                                 </a>
                                 <a class="list-group-item" href="#">
                                     <div class="list-group-status status-offline"></div>
-                                    <img alt="Darth Vader" class="pull-left" src="assets/images/users/user6.jpg">
+                                    <img alt="Darth Vader" class="pull-left" src="../../assets/images/users/user6.jpg">
                                     <span class="contacts-title">Darth Vader</span>
                                     <p>I want my money back!</p>
                                 </a>
@@ -199,9 +203,8 @@
                 <br/><br/><br/><br/>
                 <!-- PAGE CONTENT WRAPPER -->
                 <div class="page-content-wrap">                
-                    
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-8 col-md-offset-4 col-md-pull-2">
                             <div class="panel panel-default">
                                 <div class="panel-body">
                                     Add class <code>.page-navigation-top</code> to <code>.page-container</code> to use top navigation
@@ -209,7 +212,60 @@
                             </div>
                         </div>
                     </div>
-                
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-4 col-md-pull-2">
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+                                    
+<!-- start -->
+<div class="timeline-item-content">
+                                        <div class="timeline-heading">
+                                            <img src="../../assets/images/users/user2.jpg"> <a href="#">John Doe</a> added article <a href="#">Lorem ipsum dolor sit amet</a>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <img width="150" align="left" class="img-text" src="../../assets/images/gallery/nature-4.jpg">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus dolor id orci lacinia, eget aliquam velit consequat.</p>
+                                            <p>Vivamus at tincidunt lectus, faucibus condimentum quam. Duis facilisis sem sed eros malesuada, vel dignissim diam ornare. Etiam rhoncus, nibh non auctor mattis, ligula diam mattis dolor, non tincidunt lectus velit nec metus. 
+                                               Phasellus dictum justo vitae ornare lobortis. Integer ut lectus vel mauris tempor ultricies eget vitae turpis. Sed eleifend odio quis rutrum volutpat.</p>
+                                            <ul class="list-tags">                                            
+                                                <li><a href="#"><span class="fa fa-tag"></span> tempor</a></li>
+                                                <li><a href="#"><span class="fa fa-tag"></span> eros</a></li>
+                                                <li><a href="#"><span class="fa fa-tag"></span> suspendisse</a></li>
+                                                <li><a href="#"><span class="fa fa-tag"></span> dolor</a></li>
+                                            </ul>                                            
+                                        </div>
+                                        <div class="timeline-body comments">
+                                            <div class="comment-item">
+                                                <img src="../../assets/images/users/user4.jpg">
+                                                <p class="comment-head">
+                                                    <a href="#">Brad Pitt</a> <span class="text-muted">@bradpitt</span>
+                                                </p>
+                                                <p>Awesome, man, that is awesome...</p>
+                                                <small class="text-muted">10h ago</small>
+                                            </div>   
+                                            <div class="comment-item">
+                                                <img src="../../assets/images/users/user4.jpg">
+                                                <p class="comment-head">
+                                                    <a href="#">Brad Pitt</a> <span class="text-muted">@bradpitt</span>
+                                                </p>
+                                                <p>Awesome, man, that is awesome...</p>
+                                                <small class="text-muted">10h ago</small>
+                                            </div>                                         
+                                        </div>                                        
+                                        <div class="timeline-footer">
+                                            <a href="#">Read more</a>
+                                            <div class="pull-right">
+                                                <a href="#"><span class="fa fa-comment"></span> 35</a> 
+                                                <a href="#"><span class="fa fa-share"></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+<!-- end -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- PAGE CONTENT WRAPPER -->                
             </div>            
@@ -217,25 +273,6 @@
         </div>
         <!-- END PAGE CONTAINER -->
 
-        <!-- MESSAGE BOX-->
-        <div class="message-box animated fadeIn" data-sound="alert" id="mb-signout">
-            <div class="mb-container">
-                <div class="mb-middle">
-                    <div class="mb-title"><span class="fa fa-sign-out"></span> Log <strong>Out</strong> ?</div>
-                    <div class="mb-content">
-                        <p>Are you sure you want to log out?</p>                    
-                        <p>Press No if youwant to continue work. Press Yes to logout current user.</p>
-                    </div>
-                    <div class="mb-footer">
-                        <div class="pull-right">
-                            <a href="pages-login.html" class="btn btn-success btn-lg">Yes</a>
-                            <button class="btn btn-default btn-lg mb-control-close">No</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- END MESSAGE BOX-->
 
         <!-- START PRELOADS -->
         <audio id="audio-alert" src="../../audio/alert.mp3" preload="auto"></audio>
@@ -254,12 +291,15 @@
         <script type="text/javascript" src="../../js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js"></script>
         <!-- END PAGE PLUGINS -->       
 
-        <!-- START TEMPLATE -->
-        <!-- <script type="text/javascript" src="../../js/settings.js"></script> -->
-        
+        <script type="text/javascript" src="../../js/plugins/blueimp/jquery.blueimp-gallery.min.js"></script>
+        <script type="text/javascript" src="../../js/plugins/bootstrap/bootstrap-datepicker.js"></script>
+        <script type="text/javascript" src="../../js/plugins/bootstrap/bootstrap-select.js"></script>        
+        <!-- END THIS PAGE PLUGINS-->        
+
         <script type="text/javascript" src="../../js/plugins.js"></script>        
-        <script type="text/javascript" src="../../js/actions.js"></script>        
-        <!-- END TEMPLATE -->
+        <script type="text/javascript" src="../../js/actions.js"></script>
+        <script type="text/javascript" src="../../js/demo_maps.js"></script>
+        
     <!-- END SCRIPTS -->         
     </body>
 </html>
