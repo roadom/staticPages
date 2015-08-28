@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+    <head>        
+        <title>Atlant - Responsive Bootstrap Admin Template</title>            
+        <span class="includeSpan" src="/pages/common/meta.html"></span>
+       
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" type="text/css" id="theme" href="/css/theme-default.css"/>
+        <link rel="stylesheet/less" type="text/css" href="/less/css/styles.less"/>
+        <script type="text/javascript" src="/js/plugins/lesscss/less.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="/css/roa/question.css"/>
+    </head>
+    <body>
+        <!-- START PAGE CONTAINER -->
+        <div class="page-container page-navigation-top">            
+            <!-- PAGE CONTENT -->
+            <div class="page-content">
+                <span class="includeSpan" src="/pages/common/navBar.html"></span>
+
+                <!-- PAGE CONTENT WRAPPER -->
+                <div class="page-content-wrap">                
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-4 col-md-pull-2">
+							<form class="form-horizontal">
+	                            <div class="panel panel-default">
+	                                <div class="panel-heading ui-draggable-handle">
+	                                    <h3 class="panel-title">发起一个 <strong>伟大的</strong> 新投票</h3>
+	                                    <ul class="panel-controls">
+	                                        <li><a class="panel-remove" href="#"><span class="fa fa-times"></span></a></li>
+	                                    </ul>
+	                                </div>
+	                                <div class="panel-body">
+	                                	<!-- 
+	                                    <p>This is non libero bibendum, scelerisque arcu id, placerat nunc. Integer ullamcorper rutrum dui eget porta. Fusce enim dui, pulvinar a augue nec, dapibus hendrerit mauris. Praesent efficitur, elit non convallis faucibus, enim sapien suscipit mi, sit amet fringilla felis arcu id sem. Phasellus semper felis in odio convallis, et venenatis nisl posuere. Morbi non aliquet magna, a consectetur risus. Vivamus quis tellus eros. Nulla sagittis nisi sit amet orci consectetur laoreet. Vivamus volutpat erat ac vulputate laoreet. Phasellus eu ipsum massa.</p>
+	                                     -->
+	                                </div>
+	                                <div class="panel-body">                                                                        
+	                                    
+	                                    <div class="form-group">
+	                                        <label class="col-md-3 col-xs-12 control-label">投票问题：</label>
+	                                        <div class="col-md-6 col-xs-12">                                            
+	                                            <div class="input-group">
+	                                                <span class="input-group-addon"><span class="fa fa-pencil"></span></span>
+	                                                <input type="text" class="form-control" placeholder="简述需要统计投票的观点问题">
+	                                            </div>                                            
+	                                            <span class="help-block">This is sample of text field</span>
+	                                        </div>
+	                                    </div>
+	                                    
+	                                    <div class="form-group">
+											<label class="col-md-3 col-xs-12 control-label">话题标签</label>
+	                                        <div class="col-md-6 col-xs-12">
+												<input type="text" value="First,Second,Third" class="tagsinput" style="display: none;" id="tags1440750216900">
+												<div class="tagsinput" id="tags1440750216900_tagsinput" style="width: 100%; height: auto;">
+													<span class="tag">
+														<span>First&nbsp;&nbsp;</span>
+														<a href="#" title="Removing tag"></a>
+													</span>
+													<span class="tag">
+														<span>Second&nbsp;&nbsp;</span>
+														<a href="#" title="Removing tag"></a>
+													</span>
+													<span class="tag">
+														<span>Third&nbsp;&nbsp;</span>
+														<a href="#" title="Removing tag"></a>
+													</span>
+													<div id="tags1440750216900_addTag">
+														<input data-default="add a tag" value="" id="tags1440750216900_tag" style="color: rgb(102, 102, 102); width: 78px;">
+													</div>
+													<div class="tags_clear"></div>
+												</div>
+												<span class="help-block">Default textarea field</span>
+											</div>
+	                                    </div>
+	                                    
+	                                    <div class="form-group">
+	                                        <label class="col-md-3 col-xs-12 control-label">备选答案</label>
+	                                        <div class="col-md-6 col-xs-12">                                                                                            
+	                                            <div class="input-group">
+	                                                <input type="text" class="form-control" placeholder="简述需要统计投票的观点问题">
+	                                                <span class="input-group-addon"><span class="fa fa-times"></span></span>
+	                                            </div>
+												<span class="help-block">Select box example</span>
+												<div class="input-group">
+	                                                <input type="text" class="form-control" placeholder="简述需要统计投票的观点问题">
+	                                                <span class="input-group-addon"><span class="fa fa-times"></span></span>
+	                                            </div>
+	                                            <span class="help-block">Select box example</span>
+	                                            <div class="input-group">
+	                                                <input type="text" class="form-control" placeholder="简述需要统计投票的观点问题">
+	                                                <span class="input-group-addon"><span class="fa fa-times"></span></span>
+	                                            </div>
+	                                            <span class="help-block">Select box example</span>
+	                                        </div>
+	                                        <div class="col-md-3">
+	                                        	<button class="btn btn-default" type="button"><i class="fa fa-plus"></i>加选项</button>
+	                                        </div>
+	                                    </div>
+	                                </div>
+	                                
+	                                
+	                                
+	                                <!-- 附加选项 -->
+	                                <div class="panel-body">
+	                                	<div class="col-md-8 col-md-offset-2">
+	                                		
+		                                	<div class="panel panel-default panel-toggled">
+				                                <div class="panel-heading ui-draggable-handle">
+				                                    <h3 class="panel-title">高级选项</h3>
+				                                    <ul class="panel-controls">
+				                                        <li><a class="panel-collapse" href="#"><span class="fa fa-angle-down"></span></a></li>
+				                                        <li><a class="panel-refresh" href="#"><span class="fa fa-refresh"></span></a></li>
+				                                    </ul>                                
+				                                </div>
+				                                <div class="panel-body">
+				                                    <form role="form" class="form-horizontal">
+				                                    	<div class="form-group">                                        
+					                                        <label class="col-md-2 col-xs-12 control-label">是否允许添加答案</label>
+					                                        <div class="col-md-2 col-xs-12">
+					                                        	<label class="switch ">
+					                                                <input type="checkbox" value="0" checked="">
+					                                        		<span></span>
+					                                            </label>
+					                                        </div>
+					                                        <div class="col-md-8 col-xs-12">
+					                                        	<span class="help-block">该项选择后，其他用户将可以补充新的选项</span>
+					                                        </div>
+					                                    </div>
+					                                    
+					                                    <div class="form-group">                                        
+					                                        <label class="col-md-2 col-xs-12 control-label">是否限制投票次数</label>
+					                                        <div class="col-md-2 col-xs-12">
+					                                        	<label class="switch ">
+					                                                <input type="checkbox" value="0" checked="">
+					                                        		<span></span>
+					                                            </label>
+					                                        </div>
+					                                        <div class="col-md-8 col-xs-12">
+					                                        	每个
+					                                        	<select>
+					                                        		<option value="ip">IP</option>
+					                                        		<option value="ip">站内用户</option>
+					                                        	</select>
+					                                        	每
+					                                        	<select>
+					                                        		<option value="day">天</option>
+					                                        		<option value="week">周</option>
+					                                        		<option value="month">月</option>
+					                                        	</select>
+					                                        	限制投票
+					                                        	<input type="text"/>
+					                                        	次
+					                                        </div>
+					                                    </div>
+					                                    
+					                                    
+					                                    <div class="form-group">                                        
+					                                        <label class="col-md-2 col-xs-12 control-label">是否过期</label>
+					                                        <div class="col-md-2 col-xs-12">
+					                                        	<label class="switch ">
+					                                        		<span></span>
+					                                                <input type="checkbox" value="0" checked="">
+					                                            </label>
+					                                        </div>
+					                                        <div class="col-md-8 col-xs-12">
+					                                            <div class="input-group">
+					                                                <span class="input-group-addon"><span class="fa fa-calendar"></span></span>
+					                                                <input type="text" value="2014-11-01" class="form-control datepicker">                                            
+					                                            </div>
+					                                            <span class="help-block">Password field sample</span>
+					                                        </div>
+					                                    </div>
+					                                    
+				                                        <div class="form-group">                                        
+					                                        <label class="col-md-2 col-xs-12 control-label">是否保密</label>
+					                                        <div class="col-md-2 col-xs-12">
+					                                        	<label class="switch ">
+					                                        		<span></span>
+					                                                <input type="checkbox" value="0" checked="">
+					                                            </label>
+					                                        </div>
+					                                        <div class="col-md-8 col-xs-12">
+					                                            <div class="input-group">
+					                                                <span class="input-group-addon"><span class="fa fa-unlock-alt"></span></span>
+					                                                <input type="password" class="form-control" placeholder="为问题设置一个密码">
+					                                            </div>            
+					                                            <span class="help-block">适合于私人投票</span>
+					                                        </div>
+					                                    </div>
+				
+				                                        
+				                                    </form>
+				                                </div>                            
+				                            </div>
+			                            
+			                            </div>
+			                            
+	                                </div>
+	                                <div class="panel-footer">
+	                                    <button class="btn btn-default">清空表单</button>                                    
+	                                    <button class="btn btn-success pull-right">提交问题</button>
+	                                </div>
+	                            </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- PAGE CONTENT WRAPPER -->                
+            </div>            
+            <!-- END PAGE CONTENT -->
+        </div>
+        <!-- END PAGE CONTAINER -->
+
+
+        <span class="includeSpan" src="/pages/common/script.html"></span>
+        <script type="text/javascript" src="/js/plugins/jquery/jquery.min.js"></script>
+    	<script src="/js/roa/common.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
