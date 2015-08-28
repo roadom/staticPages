@@ -1,10 +1,11 @@
-<ul class="x-navigation x-navigation-horizontal">
+<ul class="x-navigation x-navigation-horizontal" style="position:fixed;'">
     <li class="xn-logo">
-        <a href="index.html">Moster.Top</a>
+        <a href="/pages/vote/list.html">Moster.Top</a>
         <a href="#" class="x-navigation-control"></a>
     </li>
     <li class="xn-openable">
-        <a href="#"><span class="fa fa-files-o"></span> <span class="xn-text">Pages</span></a>
+        <a href="/pages/vote/list.html"><span class="fa fa-home"></span> <span class="xn-text">首页</span></a>
+        <!-- 
         <ul class="animated zoomIn">
             <li><a href="pages-gallery.html"><span class="fa fa-image"></span> Gallery</a></li>
             <li><a href="pages-profile.html"><span class="fa fa-user"></span> Profile</a></li>
@@ -56,8 +57,9 @@
             </li>                            
         </ul>
     </li>
+    -->
     <li class="xn-openable">
-        <a href="#"><span class="fa fa-file-text-o"></span> <span class="xn-text">Layouts</span></a>
+        <a href="#"><span class="fa fa-bookmark"></span> <span class="xn-text">话题</span></a>
         <ul class="animated zoomIn">
             <li><a href="layout-boxed.html">Boxed</a></li>
             <li><a href="layout-nav-toggled.html">Navigation Toggled</a></li>
@@ -72,7 +74,7 @@
         </ul>
     </li>
     <li class="xn-openable">
-        <a href="#"><span class="fa fa-cogs"></span> <span class="xn-text">UI Kits</span></a>                        
+        <a href="#"><span class="fa fa-crosshairs"></span> <span class="xn-text">发现</span></a>                        
         <ul class="animated zoomIn">
             <li><a href="ui-widgets.html"><span class="fa fa-heart"></span> Widgets</a></li>                            
             <li><a href="ui-elements.html"><span class="fa fa-cogs"></span> Elements</a></li>
@@ -88,7 +90,7 @@
         </ul>
     </li>                    
     <li class="xn-openable">
-        <a href="#"><span class="fa fa-pencil"></span> <span class="xn-text">Forms</span></a>
+        <a href="#"><span class="fa fa-pencil"></span> <span class="xn-text">发起投票</span></a>
         <ul class="animated zoomIn">
             <li>
                 <a href="form-layouts-two-column.html"><span class="fa fa-tasks"></span> Form Layouts</a>
@@ -109,12 +111,12 @@
     </li>
     <li class="xn-search">
         <form role="form">
-            <input type="text" placeholder="Search..." name="search">
+            <input type="text" placeholder="搜索..." name="search">
         </form>
     </li>
     <!-- SIGN OUT -->
     <li class="xn-icon-button pull-right">
-        <a href="#" class="mb-control" data-box="#mb-signout"><span class="fa fa-user"></span></a>                        
+        <a href="javascript:void(0);" onclick="window.location.href='/pages/customer/activity.html';" class="mb-control" ><span class="fa fa-user"></span></a>                        
     </li> 
     <li class="xn-icon-button pull-right active">
         <a href="#"><span class="fa fa-comments"></span></a>
@@ -127,25 +129,25 @@
                 </div>
             </div>
             <div style="height: 200px;" class="panel-body list-group list-group-contacts scroll mCustomScrollbar _mCS_2 mCS-autoHide"><div class="mCustomScrollBox mCS-light mCSB_vertical mCSB_inside" id="mCSB_2" tabindex="0"><div dir="ltr" style="position:relative; top:0; left:0;" class="mCSB_container" id="mCSB_2_container">
-                <a class="list-group-item" href="#">
+                <a class="list-group-item" href="/pages/customer/message.html">
                     <div class="list-group-status status-online"></div>
                     <img alt="John Doe" class="pull-left" src="/assets/images/users/user2.jpg">
                     <span class="contacts-title">John Doe</span>
                     <p>Praesent placerat tellus id augue condimentum</p>
                 </a>
-                <a class="list-group-item" href="#">
+                <a class="list-group-item" href="/pages/customer/message.html">
                     <div class="list-group-status status-away"></div>
                     <img alt="Dmitry Ivaniuk" class="pull-left" src="/assets/images/users/user.jpg">
                     <span class="contacts-title">Dmitry Ivaniuk</span>
                     <p>Donec risus sapien, sagittis et magna quis</p>
                 </a>
-                <a class="list-group-item" href="#">
+                <a class="list-group-item" href="/pages/customer/message.html">
                     <div class="list-group-status status-away"></div>
                     <img alt="Nadia Ali" class="pull-left" src="/assets/images/users/user3.jpg">
                     <span class="contacts-title">Nadia Ali</span>
                     <p>Mauris vel eros ut nunc rhoncus cursus sed</p>
                 </a>
-                <a class="list-group-item" href="#">
+                <a class="list-group-item" href="/pages/customer/message.html">
                     <div class="list-group-status status-offline"></div>
                     <img alt="Darth Vader" class="pull-left" src="/assets/images/users/user6.jpg">
                     <span class="contacts-title">Darth Vader</span>
@@ -153,7 +155,7 @@
                 </a>
             </div><div class="mCSB_scrollTools mCSB_2_scrollbar mCS-light mCSB_scrollTools_vertical" id="mCSB_2_scrollbar_vertical" style="display: block;"><div class="mCSB_draggerContainer"><div oncontextmenu="return false;" style="position: absolute; min-height: 30px; top: 0px; display: block; height: 163px; max-height: 190px;" class="mCSB_dragger" id="mCSB_2_dragger_vertical"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></div>     
             <div class="panel-footer text-center">
-                <a href="pages-messages.html">Show all messages</a>
+                <a href="/pages/customer/messageList.html">Show all messages</a>
             </div>                            
         </div>                        
     </li>
