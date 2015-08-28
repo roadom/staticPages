@@ -2,9 +2,7 @@
 <html lang="en" ng-app>
     <head>        
         <title>Moster.top - </title>            
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <span class="includeSpan" src="/pages/common/meta.html"></span>
         
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
         <link rel="stylesheet" type="text/css" id="theme" href="/css/theme-default.css"/>
@@ -18,7 +16,7 @@
         <div class="page-container page-navigation-top">            
             <!-- PAGE CONTENT -->
             <div class="page-content">
-                <ng-include src="'/pages/common/navBar.html'"></ng-include>
+                <span class="includeSpan" src="/pages/common/navBar.html"></span>
                 
                 <!-- PAGE CONTENT WRAPPER -->
                 <div class="page-content-wrap">                
@@ -43,8 +41,8 @@
                                                 <li><a href="#"><span class="fa fa-tag"></span> suspendisse</a></li>
                                                 <li><a href="#"><span class="fa fa-tag"></span> dolor</a></li>
 	                                            <li class="pull-right">
-	                                            	<button class="btn btn-primary pull-right" type="button">ä¿®æ”¹</button>
-	                                            	<button class="btn btn-primary pull-right" type="button">åˆ†äº«</button>
+	                                            	<button class="btn btn-primary pull-right" type="button">ÐÞ¸Ä</button>
+	                                            	<button class="btn btn-primary pull-right" type="button">·ÖÏí</button>
 	                                            </li>
                                             </ul>
                                         </div>
@@ -171,15 +169,15 @@
                                             </div>
                                         </div>                                        
                                         <div class="timeline-footer">
-                                        	<a href="#" class="btn btn-default"><i class="fa fa-sort-down"></i>å±•å¼€æ›´å¤šé€‰ç¥¨</a>
+                                        	<a href="#" class="btn btn-default"><i class="fa fa-sort-down"></i>Õ¹¿ª¸ü¶àÑ¡Æ±</a>
                                         </div>
                                     </div>
 									<!-- end -->
 									<br/>
 									<div class="input-group">
-                                        <input type="text" placeholder="éƒ½ä¸å¯¹ï¼Œæˆ‘æ¥æŠ•ä¸€ç¥¨" class="form-control">
+                                        <input type="text" placeholder="¶¼²»¶Ô£¬ÎÒÀ´Í¶Ò»Æ±" class="form-control">
                                         <span class="input-group-btn">
-                                            <button type="button" class="btn btn-success"><i class="fa fa-plus"></i>æŠ•ä¹‹!</button>
+                                            <button type="button" class="btn btn-success"><i class="fa fa-plus"></i>Í¶Ö®!</button>
                                         </span>
                                     </div>
                                 </div>
@@ -194,8 +192,9 @@
         </div>
         <!-- END PAGE CONTAINER -->
 
-        <ng-include src="'/pages/common/script.html'"></ng-include>
-    	<script src="//cdn.bootcss.com/angular.js/1.4.4/angular.min.js"></script>
+        <span class="includeSpan" src="/pages/common/script.html"></span>
+        <script type="text/javascript" src="/js/plugins/jquery/jquery.min.js"></script>
+    	<script src="/js/roa/common.js"></script>
     </body>
 </html>
 

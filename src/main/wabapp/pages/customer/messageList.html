@@ -2,9 +2,7 @@
 <html lang="en" ng-app>
     <head>        
         <title>Atlant - Responsive Bootstrap Admin Template</title>            
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <span class="includeSpan" src="/pages/common/meta.html"></span>
        
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
         <link rel="stylesheet" type="text/css" id="theme" href="/css/theme-default.css"/>
@@ -17,12 +15,12 @@
         <div class="page-container page-navigation-top">            
             <!-- PAGE CONTENT -->
             <div class="page-content">
-				<ng-include src="'/pages/common/navBar.html'"></ng-include>
+				<span class="includeSpan" src="/pages/common/navBar.html"></span>
                 
                 <div class="page-content-wrap">
                     <div class="row">
                         <div class="col-md-2 col-md-offset-4 col-md-pull-2 ">
-                            <ng-include src="'/pages/common/customerBoard.html'"></ng-include>
+                            <span class="includeSpan" src="/pages/common/customerBoard.html"></span>
                         </div>
                         
                         <div class="col-md-6 col-md-pull-2 ">
@@ -87,8 +85,9 @@
 
 
 
-		<ng-include src="'/pages/common/script.html'"></ng-include>
-    	<script src="//cdn.bootcss.com/angular.js/1.4.4/angular.min.js"></script>
+		<span class="includeSpan" src="/pages/common/script.html"></span>
+        <script type="text/javascript" src="/js/plugins/jquery/jquery.min.js"></script>
+    	<script src="/js/roa/common.js"></script>
     </body>
 </html>
 
